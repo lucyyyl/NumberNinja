@@ -1,6 +1,6 @@
 //
 //  ColorSchemeManager.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 04/10/2022.
 //

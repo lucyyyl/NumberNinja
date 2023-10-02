@@ -1,6 +1,6 @@
 //
 //  SettingsView.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 04/10/2022.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @EnvironmentObject var colorSchemeManager: ColorSchemeManager
-    @EnvironmentObject var dataModel: WordleDataModel
+    @EnvironmentObject var dataModel: NumberNinjaDataModel
     @Environment(\.dismiss) var dismiss
     var body: some View {
         NavigationView {

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 28/08/2022.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct GameView: View {
-    @EnvironmentObject var dataModel: WordleDataModel
+    @EnvironmentObject var dataModel: NumberNinjaDataModel
     @State private var showSettings = false
     @State private var showHelp = false
 //    @ObservedObject var showStats
@@ -109,6 +109,6 @@ struct GameView: View {
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
         GameView()
-            .environmentObject(WordleDataModel())
+            .environmentObject(NumberNinjaDataModel())
     }
 }

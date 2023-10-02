@@ -1,13 +1,13 @@
 //
-//  WordleDataModel.swift
-//  Wordle
+//  NumberNinjaDataModel.swift
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 02/09/2022.
 //
 
 import SwiftUI
 
-class WordleDataModel: ObservableObject {
+class NumberNinjaDataModel: ObservableObject {
     @Published var guesses: [Guess] = []
     @Published var incorrectAttempts = [Int](repeating: 0, count: 8)
     @Published var toastText: String?
@@ -45,7 +45,6 @@ class WordleDataModel: ObservableObject {
         inPlay = true
         tryIndex = 0
         gameOver = false
-        print(selectedNumber)
     }
     
     func generateNumber(from digits: [String]) -> String {
@@ -76,7 +75,7 @@ class WordleDataModel: ObservableObject {
 
     }
 
-    func enterWord() {
+    func enterNumber() {
         if currentNumber == selectedNumber {
             gameOver = true
             calculateResults()
@@ -105,8 +104,8 @@ class WordleDataModel: ObservableObject {
     }
 
     func updateRow() {
-        let guessWord = currentNumber.padding(toLength: 4, withPad: " ", startingAt: 0)
-        guesses[tryIndex].word = guessWord
+        let guessNumber = currentNumber.padding(toLength: 4, withPad: " ", startingAt: 0)
+        guesses[tryIndex].number = guessNumber
     }
 
     func calculateResults() {

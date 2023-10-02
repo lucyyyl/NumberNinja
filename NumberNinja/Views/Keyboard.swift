@@ -1,6 +1,6 @@
 //
 //  Keyboard.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 02/09/2022.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Keyboard: View {
-    @EnvironmentObject var dataModel: WordleDataModel
+    @EnvironmentObject var dataModel: NumberNinjaDataModel
     var topRowArray = "12345".map{ String($0) }
     var secondRowArray = "6789".map{ String($0) }
     var body: some View {
@@ -39,7 +39,7 @@ struct Keyboard: View {
                 .disabled(dataModel.disabledKeys)
                 .opacity(dataModel.disabledKeys ? 0.6 : 1)
                 Button {
-                    dataModel.enterWord()
+                    dataModel.enterNumber()
                 } label: {
                     Text("Enter")
                 }
@@ -58,7 +58,7 @@ struct Keyboard: View {
 struct Keyboard_Previews: PreviewProvider {
     static var previews: some View {
         Keyboard()
-            .environmentObject(WordleDataModel())
+            .environmentObject(NumberNinjaDataModel())
             .scaleEffect(Global.keyboardScale)
     }
 }

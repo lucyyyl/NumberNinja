@@ -1,6 +1,6 @@
 //
 //  LetterButtonView.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 02/09/2022.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DigitButtonView: View {
-    @EnvironmentObject var dataModel: WordleDataModel
+    @EnvironmentObject var dataModel: NumberNinjaDataModel
     var digit: String
 
     var body: some View {
@@ -28,6 +28,6 @@ struct DigitButtonView: View {
 struct DigitButtonView_Previews: PreviewProvider {
     static var previews: some View {
         DigitButtonView(digit: "L")
-            .environmentObject(WordleDataModel())
+            .environmentObject(NumberNinjaDataModel())
     }
 }

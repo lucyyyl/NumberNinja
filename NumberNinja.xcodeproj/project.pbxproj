@@ -11,11 +11,11 @@
 		2C59DEDD28C2342C000E06F4 /* Color.Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59DEDC28C2342C000E06F4 /* Color.Extension.swift */; };
 		2C59DEE028C23AE1000E06F4 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59DEDF28C23AE1000E06F4 /* Guess.swift */; };
 		2C59DEE528C23BAD000E06F4 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59DEE428C23BAD000E06F4 /* GuessView.swift */; };
-		2C59DEE828C23D02000E06F4 /* WordleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59DEE728C23D02000E06F4 /* WordleDataModel.swift */; };
+		2C59DEE828C23D02000E06F4 /* NumberNinjaDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59DEE728C23D02000E06F4 /* NumberNinjaDataModel.swift */; };
 		2C59DEEA28C23E0D000E06F4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59DEE928C23E0D000E06F4 /* Global.swift */; };
 		2C59DEEC28C2499A000E06F4 /* DigitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59DEEB28C2499A000E06F4 /* DigitButtonView.swift */; };
 		2C59DEEE28C24A63000E06F4 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C59DEED28C24A63000E06F4 /* Keyboard.swift */; };
-		2C91183328BBA5FA0091CCA8 /* WordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91183228BBA5FA0091CCA8 /* WordleApp.swift */; };
+		2C91183328BBA5FA0091CCA8 /* NumberNinjaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91183228BBA5FA0091CCA8 /* NumberNinjaApp.swift */; };
 		2C91183528BBA5FA0091CCA8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91183428BBA5FA0091CCA8 /* GameView.swift */; };
 		2C91183728BBA5FC0091CCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C91183628BBA5FC0091CCA8 /* Assets.xcassets */; };
 		2C91183A28BBA5FC0091CCA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C91183928BBA5FC0091CCA8 /* Preview Assets.xcassets */; };
@@ -36,12 +36,12 @@
 		2C59DEDC28C2342C000E06F4 /* Color.Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.Extension.swift; sourceTree = "<group>"; };
 		2C59DEDF28C23AE1000E06F4 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
 		2C59DEE428C23BAD000E06F4 /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
-		2C59DEE728C23D02000E06F4 /* WordleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleDataModel.swift; sourceTree = "<group>"; };
+		2C59DEE728C23D02000E06F4 /* NumberNinjaDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberNinjaDataModel.swift; sourceTree = "<group>"; };
 		2C59DEE928C23E0D000E06F4 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		2C59DEEB28C2499A000E06F4 /* DigitButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitButtonView.swift; sourceTree = "<group>"; };
 		2C59DEED28C24A63000E06F4 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 		2C91182F28BBA5FA0091CCA8 /* NumberNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C91183228BBA5FA0091CCA8 /* WordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleApp.swift; sourceTree = "<group>"; };
+		2C91183228BBA5FA0091CCA8 /* NumberNinjaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberNinjaApp.swift; sourceTree = "<group>"; };
 		2C91183428BBA5FA0091CCA8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		2C91183628BBA5FC0091CCA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C91183928BBA5FC0091CCA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 		2C59DEE628C23CF1000E06F4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2C59DEE728C23D02000E06F4 /* WordleDataModel.swift */,
+				2C59DEE728C23D02000E06F4 /* NumberNinjaDataModel.swift */,
 				2CAB852928EC5D730092AEEE /* ColorSchemeManager.swift */,
 			);
 			path = ViewModels;
@@ -132,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				2CB27BC928CB77BC0055E5B9 /* Animations */,
-				2C91183228BBA5FA0091CCA8 /* WordleApp.swift */,
+				2C91183228BBA5FA0091CCA8 /* NumberNinjaApp.swift */,
 				2C59DEE628C23CF1000E06F4 /* ViewModels */,
 				2C59DEDE28C23AD5000E06F4 /* Models */,
 				2C59DEE128C23B73000E06F4 /* Views */,
@@ -244,8 +244,8 @@
 				2C59DEEE28C24A63000E06F4 /* Keyboard.swift in Sources */,
 				2C91183528BBA5FA0091CCA8 /* GameView.swift in Sources */,
 				2CB27BCB28CB77CC0055E5B9 /* Shake.swift in Sources */,
-				2C59DEE828C23D02000E06F4 /* WordleDataModel.swift in Sources */,
-				2C91183328BBA5FA0091CCA8 /* WordleApp.swift in Sources */,
+				2C59DEE828C23D02000E06F4 /* NumberNinjaDataModel.swift in Sources */,
+				2C91183328BBA5FA0091CCA8 /* NumberNinjaApp.swift in Sources */,
 				2CAB852E28EED9150092AEEE /* HelpView.swift in Sources */,
 				2CAB852828EC497C0092AEEE /* UIWindow+Extension.swift in Sources */,
 				2C59DEEA28C23E0D000E06F4 /* Global.swift in Sources */,

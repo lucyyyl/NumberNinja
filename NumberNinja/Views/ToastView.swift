@@ -1,6 +1,6 @@
 //
 //  ToastView.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 30/09/2022.
 //
@@ -19,6 +19,6 @@ struct ToastView: View {
 
 struct ToastView_Previews: PreviewProvider {
     static var previews: some View {
-        ToastView(toastText: "Not in Word List ")
+        ToastView(toastText: "Not in List ")
     }
 }

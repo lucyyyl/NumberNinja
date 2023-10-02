@@ -1,6 +1,6 @@
 //
 //  StatsView.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 30/09/2022.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import Charts
 
 struct StatsView: View {
-    @EnvironmentObject var dataModel: WordleDataModel
+    @EnvironmentObject var dataModel: NumberNinjaDataModel
     @Environment(\.dismiss) var dismiss
     var body: some View {
         NavigationView {

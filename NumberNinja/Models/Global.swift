@@ -1,6 +1,6 @@
 //
 //  Global.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 02/09/2022.
 //
@@ -44,6 +44,4 @@ enum Global {
             return CGFloat(1.6)
         }
     }
-
-    static let commonWords = ["1234", "5467", "3219", "2657", "9836", "2687"]
 }

@@ -1,6 +1,6 @@
 //
 //  HelpView.swift
-//  Wordle
+//  NumberNinja
 //
 //  Created by Lucy Llewellyn on 06/10/2022.
 //
